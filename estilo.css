@@ -106,8 +106,8 @@ svg {
   z-index: -1;
   position: absolute;
   top: 50%;
-  -webkit-animation: santaClaus 10s infinite; /*     Chrome, Safari, Opera */ 
-  animation: santaClaus 10s infinite;
+  -webkit-animation: santaClaus 60s infinite ; /*     Chrome, Safari, Opera */ 
+  animation: santaClaus 60s infinite;
 }
 
 .santaclaus img {
@@ -115,13 +115,40 @@ svg {
   height: auto;
 }
 
+.santaclau {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  -webkit-animation: santaClaus 42s infinite; /*     Chrome, Safari, Opera */ 
+  animation: santaClaus 42s infinite;
+}
 
-/* Chrome, Safari, Opera */ 
+.santaclau img {
+   width: 110px;
+  height: auto;
+}
+
+.santacla {
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  -webkit-animation: santaClaus 30s infinite; /*     Chrome, Safari, Opera */ 
+  animation: santaClaus 30s infinite;
+}
+
+.santacla img {
+   width: 110px;
+  height: auto;
+}
+
 @-webkit-keyframes santaClaus {
   0% {left:-20%;}
   100% {left: 120%;}
 } 
-
+@-webkit-keyframes santaClau {
+  0% {left:-20%;}
+  100% {left: 102%;}
+} 
 /* Standard syntax */ 
 @keyframes treeColor {
   0% {fill: rgba(168,219,146,1);}
